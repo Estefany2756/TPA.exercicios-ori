@@ -32,6 +32,7 @@
             this.tsmiprogramas = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmisair = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmilivraria = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiacrescimo = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,7 +50,8 @@
             // tsmiprogramas
             // 
             this.tsmiprogramas.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmilivraria});
+            this.tsmilivraria,
+            this.tsmiacrescimo});
             this.tsmiprogramas.Name = "tsmiprogramas";
             this.tsmiprogramas.Size = new System.Drawing.Size(76, 20);
             this.tsmiprogramas.Text = "Programas";
@@ -67,6 +69,13 @@
             this.tsmilivraria.Size = new System.Drawing.Size(180, 22);
             this.tsmilivraria.Text = "Livraria";
             this.tsmilivraria.Click += new System.EventHandler(this.tsmilivraria_Click);
+            // 
+            // tsmiacrescimo
+            // 
+            this.tsmiacrescimo.Name = "tsmiacrescimo";
+            this.tsmiacrescimo.Size = new System.Drawing.Size(180, 22);
+            this.tsmiacrescimo.Text = "Acréscimo";
+            this.tsmiacrescimo.Click += new System.EventHandler(this.tsmiacrescimo_Click);
             // 
             // frmmenu
             // 
@@ -90,6 +99,7 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiprogramas;
         private System.Windows.Forms.ToolStripMenuItem tsmilivraria;
         private System.Windows.Forms.ToolStripMenuItem tsmisair;
+        private System.Windows.Forms.ToolStripMenuItem tsmiacrescimo;
     }
 }
 

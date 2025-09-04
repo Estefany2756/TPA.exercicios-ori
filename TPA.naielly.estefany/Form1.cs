@@ -28,5 +28,12 @@ namespace TPA.naielly.estefany
         {
             Application.Exit();
         }
+
+        private void tsmiacrescimo_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmacrescimo frmacrescimo = new frmacrescimo();
+            frmacrescimo.Show();
+        }
     }
 }
