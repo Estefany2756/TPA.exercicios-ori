@@ -29,30 +29,56 @@ namespace TPA.naielly.estefany
 
             Acrescimo = 0;
 
-            if (Idade >= 30)
+            if (Sexo != "F" && Sexo != "M")
             {
-                if (Sexo == "F")
-
-                    Acrescimo = 250;
-
-                else
-                    Acrescimo = 100;
+                txttotal.Text = "Gênero inválido! Digite apenas F ou M.";
             }
 
             else
             {
-                if (Sexo == "F")
-                    Acrescimo = 150;
+                if (Idade >= 30)
+                {
+                    if (Sexo == "F")
+
+                        Acrescimo = 250;
+
+                    else
+                        Acrescimo = 100;
+                }
 
                 else
-                    Acrescimo = 50;
+                {
+                    if (Sexo == "F")
+                        Acrescimo = 150;
+
+                    else
+                        Acrescimo = 50;
+                }
+
+                Total = Salario + Acrescimo;
+
+                txttotal.Text = "Olá, " + txtnome.Text + "." + "O seu novo salário é: " + Total.ToString();
+
+
             }
+        }
 
-            Total = Salario + Acrescimo;
+        private void btnlimpar_Click(object sender, EventArgs e)
+        {
+            txttotal.Clear();
+            txtidade.Clear();
+            txtsexo.Clear();
+            txtnome.Clear();
+            txtsalario.Clear();
+            txtnome.Focus();
+           
+        }
 
-            txttotal.Text = "Olá, " + txtnome.Text + "." + "O seu novo salário é: " + Total.ToString();
-
-
+        private void btnvoltar_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmmenu menu = new frmmenu();
+            menu.Show();
         }
     }
 }
