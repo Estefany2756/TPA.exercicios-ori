@@ -34,6 +34,7 @@
             this.tsmiacrescimo = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmisair = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmilanchonete = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiimc = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,7 +55,8 @@
             this.tsmiprogramas.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmilivraria,
             this.tsmiacrescimo,
-            this.tsmilanchonete});
+            this.tsmilanchonete,
+            this.tsmiimc});
             this.tsmiprogramas.Name = "tsmiprogramas";
             this.tsmiprogramas.Size = new System.Drawing.Size(94, 24);
             this.tsmiprogramas.Text = "Programas";
@@ -85,16 +87,26 @@
             this.tsmilanchonete.Name = "tsmilanchonete";
             this.tsmilanchonete.Size = new System.Drawing.Size(224, 26);
             this.tsmilanchonete.Text = "Lanchonete";
+            this.tsmilanchonete.Click += new System.EventHandler(this.tsmilanchonete_Click);
+            // 
+            // tsmiimc
+            // 
+            this.tsmiimc.Name = "tsmiimc";
+            this.tsmiimc.Size = new System.Drawing.Size(224, 26);
+            this.tsmiimc.Text = "IMC";
+            this.tsmiimc.Click += new System.EventHandler(this.tsmiimc_Click);
             // 
             // frmmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.MenuBar;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmmenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -111,6 +123,7 @@
         private System.Windows.Forms.ToolStripMenuItem tsmisair;
         private System.Windows.Forms.ToolStripMenuItem tsmiacrescimo;
         private System.Windows.Forms.ToolStripMenuItem tsmilanchonete;
+        private System.Windows.Forms.ToolStripMenuItem tsmiimc;
     }
 }
 

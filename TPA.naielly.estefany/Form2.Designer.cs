@@ -40,78 +40,89 @@
             // lbllivros
             // 
             this.lbllivros.AutoSize = true;
-            this.lbllivros.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbllivros.Location = new System.Drawing.Point(50, 42);
+            this.lbllivros.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbllivros.Location = new System.Drawing.Point(67, 52);
+            this.lbllivros.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbllivros.Name = "lbllivros";
-            this.lbllivros.Size = new System.Drawing.Size(222, 20);
+            this.lbllivros.Size = new System.Drawing.Size(320, 27);
             this.lbllivros.TabIndex = 0;
             this.lbllivros.Text = "Quantos livros foram comprados?";
             // 
             // lblvalor
             // 
             this.lblvalor.AutoSize = true;
-            this.lblvalor.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblvalor.Location = new System.Drawing.Point(56, 104);
+            this.lblvalor.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblvalor.Location = new System.Drawing.Point(75, 128);
+            this.lblvalor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblvalor.Name = "lblvalor";
-            this.lblvalor.Size = new System.Drawing.Size(138, 20);
+            this.lblvalor.Size = new System.Drawing.Size(195, 27);
             this.lblvalor.TabIndex = 1;
             this.lblvalor.Text = "O valor a ser pago é:";
             // 
             // txtlivros
             // 
             this.txtlivros.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtlivros.Location = new System.Drawing.Point(303, 42);
+            this.txtlivros.Location = new System.Drawing.Point(435, 52);
+            this.txtlivros.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtlivros.Name = "txtlivros";
-            this.txtlivros.Size = new System.Drawing.Size(108, 26);
+            this.txtlivros.Size = new System.Drawing.Size(143, 30);
             this.txtlivros.TabIndex = 2;
             // 
             // txtvalor
             // 
             this.txtvalor.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtvalor.Location = new System.Drawing.Point(220, 104);
+            this.txtvalor.Location = new System.Drawing.Point(307, 128);
+            this.txtvalor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtvalor.Name = "txtvalor";
             this.txtvalor.ReadOnly = true;
-            this.txtvalor.Size = new System.Drawing.Size(121, 26);
+            this.txtvalor.Size = new System.Drawing.Size(160, 30);
             this.txtvalor.TabIndex = 3;
             // 
             // btncalcular
             // 
-            this.btncalcular.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncalcular.Location = new System.Drawing.Point(58, 244);
+            this.btncalcular.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btncalcular.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncalcular.Location = new System.Drawing.Point(198, 297);
+            this.btncalcular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncalcular.Name = "btncalcular";
-            this.btncalcular.Size = new System.Drawing.Size(91, 28);
+            this.btncalcular.Size = new System.Drawing.Size(127, 43);
             this.btncalcular.TabIndex = 4;
             this.btncalcular.Text = "Calcular";
-            this.btncalcular.UseVisualStyleBackColor = true;
+            this.btncalcular.UseVisualStyleBackColor = false;
             this.btncalcular.Click += new System.EventHandler(this.btncalcular_Click);
             // 
             // btnlimpar
             // 
-            this.btnlimpar.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnlimpar.Location = new System.Drawing.Point(195, 246);
+            this.btnlimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnlimpar.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlimpar.Location = new System.Drawing.Point(404, 297);
+            this.btnlimpar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnlimpar.Name = "btnlimpar";
-            this.btnlimpar.Size = new System.Drawing.Size(103, 26);
+            this.btnlimpar.Size = new System.Drawing.Size(125, 43);
             this.btnlimpar.TabIndex = 5;
             this.btnlimpar.Text = "Limpar";
-            this.btnlimpar.UseVisualStyleBackColor = true;
+            this.btnlimpar.UseVisualStyleBackColor = false;
             this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click);
             // 
             // btnvoltar
             // 
-            this.btnvoltar.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnvoltar.Location = new System.Drawing.Point(356, 245);
+            this.btnvoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnvoltar.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnvoltar.Location = new System.Drawing.Point(609, 297);
+            this.btnvoltar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnvoltar.Name = "btnvoltar";
-            this.btnvoltar.Size = new System.Drawing.Size(99, 27);
+            this.btnvoltar.Size = new System.Drawing.Size(127, 43);
             this.btnvoltar.TabIndex = 6;
             this.btnvoltar.Text = "Voltar";
-            this.btnvoltar.UseVisualStyleBackColor = true;
+            this.btnvoltar.UseVisualStyleBackColor = false;
             this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click);
             // 
             // frmlivraria
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.GhostWhite;
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.btnlimpar);
             this.Controls.Add(this.btncalcular);
@@ -119,7 +130,9 @@
             this.Controls.Add(this.txtlivros);
             this.Controls.Add(this.lblvalor);
             this.Controls.Add(this.lbllivros);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmlivraria";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Promoção da Livraria";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -57,7 +57,7 @@ namespace TPA.naielly.estefany
 
                 Total = Salario + Acrescimo;
 
-                txttotal.Text = "Olá, " + txtnome.Text + "." + "O seu novo salário é: " + Total.ToString();
+                txttotal.Text = "Olá, " + txtnome.Text + "." + "O seu novo salário é: R$" + Total.ToString();
 
 
             }
@@ -79,6 +79,11 @@ namespace TPA.naielly.estefany
             Hide();
             frmmenu menu = new frmmenu();
             menu.Show();
+        }
+
+        private void txttotal_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

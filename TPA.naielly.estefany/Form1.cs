@@ -35,5 +35,19 @@ namespace TPA.naielly.estefany
             frmacrescimo frmacrescimo = new frmacrescimo();
             frmacrescimo.Show();
         }
+
+        private void tsmilanchonete_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmlanchonete lanche = new frmlanchonete();
+            lanche.Show();
+        }
+
+        private void tsmiimc_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmimc imc = new frmimc();
+            imc.Show();
+        }
     }
 }
