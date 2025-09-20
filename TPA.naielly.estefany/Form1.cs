@@ -56,5 +56,12 @@ namespace TPA.naielly.estefany
             frmmedia me = new frmmedia();
             me.Show();
         }
+
+        private void tsmidesconto_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmdesconto desconto = new frmdesconto();
+            desconto.Show();
+        }
     }
 }

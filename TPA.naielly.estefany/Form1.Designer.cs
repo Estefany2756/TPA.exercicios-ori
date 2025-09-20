@@ -34,8 +34,9 @@
             this.tsmiacrescimo = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmilanchonete = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiimc = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmisair = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmimedia = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmisair = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmidesconto = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +48,7 @@
             this.tsmisair});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1067, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1067, 32);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -58,9 +59,11 @@
             this.tsmiacrescimo,
             this.tsmilanchonete,
             this.tsmiimc,
-            this.tsmimedia});
+            this.tsmimedia,
+            this.tsmidesconto});
+            this.tsmiprogramas.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmiprogramas.Name = "tsmiprogramas";
-            this.tsmiprogramas.Size = new System.Drawing.Size(94, 24);
+            this.tsmiprogramas.Size = new System.Drawing.Size(104, 28);
             this.tsmiprogramas.Text = "Programas";
             // 
             // tsmilivraria
@@ -91,13 +94,6 @@
             this.tsmiimc.Text = "IMC";
             this.tsmiimc.Click += new System.EventHandler(this.tsmiimc_Click);
             // 
-            // tsmisair
-            // 
-            this.tsmisair.Name = "tsmisair";
-            this.tsmisair.Size = new System.Drawing.Size(46, 24);
-            this.tsmisair.Text = "sair";
-            this.tsmisair.Click += new System.EventHandler(this.tsmisair_Click);
-            // 
             // tsmimedia
             // 
             this.tsmimedia.Name = "tsmimedia";
@@ -105,12 +101,26 @@
             this.tsmimedia.Text = "Média Escolar";
             this.tsmimedia.Click += new System.EventHandler(this.tsmimedia_Click);
             // 
+            // tsmisair
+            // 
+            this.tsmisair.Name = "tsmisair";
+            this.tsmisair.Size = new System.Drawing.Size(46, 24);
+            this.tsmisair.Text = "sair";
+            this.tsmisair.Click += new System.EventHandler(this.tsmisair_Click);
+            // 
+            // tsmidesconto
+            // 
+            this.tsmidesconto.Name = "tsmidesconto";
+            this.tsmidesconto.Size = new System.Drawing.Size(224, 26);
+            this.tsmidesconto.Text = "Desconto";
+            this.tsmidesconto.Click += new System.EventHandler(this.tsmidesconto_Click);
+            // 
             // frmmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(1067, 493);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -134,6 +144,7 @@
         private System.Windows.Forms.ToolStripMenuItem tsmilanchonete;
         private System.Windows.Forms.ToolStripMenuItem tsmiimc;
         private System.Windows.Forms.ToolStripMenuItem tsmimedia;
+        private System.Windows.Forms.ToolStripMenuItem tsmidesconto;
     }
 }
 

@@ -90,5 +90,10 @@ namespace TPA.naielly.estefany
         {
 
         }
+
+        private void lblnome_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

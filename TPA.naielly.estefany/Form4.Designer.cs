@@ -44,9 +44,9 @@
             this.lblcodigo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblcodigo.Location = new System.Drawing.Point(51, 57);
             this.lblcodigo.Name = "lblcodigo";
-            this.lblcodigo.Size = new System.Drawing.Size(235, 23);
+            this.lblcodigo.Size = new System.Drawing.Size(344, 23);
             this.lblcodigo.TabIndex = 0;
-            this.lblcodigo.Text = "Informe o código do item:";
+            this.lblcodigo.Text = "Informe o código do item (100 á 103):";
             // 
             // label1
             // 
@@ -69,7 +69,7 @@
             // txtcodigo
             // 
             this.txtcodigo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtcodigo.Location = new System.Drawing.Point(331, 54);
+            this.txtcodigo.Location = new System.Drawing.Point(423, 54);
             this.txtcodigo.Name = "txtcodigo";
             this.txtcodigo.Size = new System.Drawing.Size(84, 30);
             this.txtcodigo.TabIndex = 3;

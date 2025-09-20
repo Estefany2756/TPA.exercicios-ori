@@ -50,9 +50,10 @@
             this.lblnome.Location = new System.Drawing.Point(59, 42);
             this.lblnome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblnome.Name = "lblnome";
-            this.lblnome.Size = new System.Drawing.Size(157, 23);
+            this.lblnome.Size = new System.Drawing.Size(67, 23);
             this.lblnome.TabIndex = 0;
-            this.lblnome.Text = "Digite seu nome:";
+            this.lblnome.Text = "Nome:";
+            this.lblnome.Click += new System.EventHandler(this.lblnome_Click);
             // 
             // lblidade
             // 
@@ -61,9 +62,9 @@
             this.lblidade.Location = new System.Drawing.Point(60, 107);
             this.lblidade.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblidade.Name = "lblidade";
-            this.lblidade.Size = new System.Drawing.Size(174, 23);
+            this.lblidade.Size = new System.Drawing.Size(66, 23);
             this.lblidade.TabIndex = 1;
-            this.lblidade.Text = "Digite a sua idade:";
+            this.lblidade.Text = "Idade:";
             // 
             // lblsexo
             // 
@@ -72,9 +73,9 @@
             this.lblsexo.Location = new System.Drawing.Point(59, 174);
             this.lblsexo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblsexo.Name = "lblsexo";
-            this.lblsexo.Size = new System.Drawing.Size(269, 23);
+            this.lblsexo.Size = new System.Drawing.Size(164, 23);
             this.lblsexo.TabIndex = 2;
-            this.lblsexo.Text = "Informe seu gênero (F ou M):";
+            this.lblsexo.Text = "Gênero (F ou M):";
             // 
             // lblsalario
             // 
@@ -83,9 +84,9 @@
             this.lblsalario.Location = new System.Drawing.Point(59, 250);
             this.lblsalario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblsalario.Name = "lblsalario";
-            this.lblsalario.Size = new System.Drawing.Size(216, 23);
+            this.lblsalario.Size = new System.Drawing.Size(118, 23);
             this.lblsalario.TabIndex = 3;
-            this.lblsalario.Text = "Qual o seu salário fixo?";
+            this.lblsalario.Text = "Salário fixo?";
             // 
             // lbltotal
             // 
@@ -113,34 +114,34 @@
             // txtnome
             // 
             this.txtnome.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnome.Location = new System.Drawing.Point(275, 39);
+            this.txtnome.Location = new System.Drawing.Point(146, 39);
             this.txtnome.Margin = new System.Windows.Forms.Padding(4);
             this.txtnome.Name = "txtnome";
-            this.txtnome.Size = new System.Drawing.Size(202, 30);
+            this.txtnome.Size = new System.Drawing.Size(331, 30);
             this.txtnome.TabIndex = 6;
             // 
             // txtidade
             // 
             this.txtidade.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtidade.Location = new System.Drawing.Point(275, 100);
+            this.txtidade.Location = new System.Drawing.Point(146, 100);
             this.txtidade.Margin = new System.Windows.Forms.Padding(4);
             this.txtidade.Name = "txtidade";
-            this.txtidade.Size = new System.Drawing.Size(202, 30);
+            this.txtidade.Size = new System.Drawing.Size(77, 30);
             this.txtidade.TabIndex = 7;
             // 
             // txtsexo
             // 
             this.txtsexo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtsexo.Location = new System.Drawing.Point(356, 171);
+            this.txtsexo.Location = new System.Drawing.Point(245, 171);
             this.txtsexo.Margin = new System.Windows.Forms.Padding(4);
             this.txtsexo.Name = "txtsexo";
-            this.txtsexo.Size = new System.Drawing.Size(140, 30);
+            this.txtsexo.Size = new System.Drawing.Size(72, 30);
             this.txtsexo.TabIndex = 8;
             // 
             // txtsalario
             // 
             this.txtsalario.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtsalario.Location = new System.Drawing.Point(356, 247);
+            this.txtsalario.Location = new System.Drawing.Point(185, 250);
             this.txtsalario.Margin = new System.Windows.Forms.Padding(4);
             this.txtsalario.Name = "txtsalario";
             this.txtsalario.Size = new System.Drawing.Size(139, 30);
@@ -149,11 +150,12 @@
             // txttotal
             // 
             this.txttotal.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttotal.Location = new System.Drawing.Point(67, 423);
+            this.txttotal.Location = new System.Drawing.Point(64, 423);
             this.txttotal.Margin = new System.Windows.Forms.Padding(4);
+            this.txttotal.Multiline = true;
             this.txttotal.Name = "txttotal";
             this.txttotal.ReadOnly = true;
-            this.txttotal.Size = new System.Drawing.Size(501, 30);
+            this.txttotal.Size = new System.Drawing.Size(501, 46);
             this.txttotal.TabIndex = 10;
             this.txttotal.TextChanged += new System.EventHandler(this.txttotal_TextChanged);
             // 
