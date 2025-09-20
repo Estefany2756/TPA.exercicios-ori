@@ -42,20 +42,20 @@
             // lblpeso
             // 
             this.lblpeso.AutoSize = true;
-            this.lblpeso.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblpeso.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblpeso.Location = new System.Drawing.Point(58, 55);
             this.lblpeso.Name = "lblpeso";
-            this.lblpeso.Size = new System.Drawing.Size(174, 27);
+            this.lblpeso.Size = new System.Drawing.Size(171, 23);
             this.lblpeso.TabIndex = 0;
             this.lblpeso.Text = "Qual o seu peso? ";
             // 
             // lblaltura
             // 
             this.lblaltura.AutoSize = true;
-            this.lblaltura.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblaltura.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblaltura.Location = new System.Drawing.Point(58, 106);
             this.lblaltura.Name = "lblaltura";
-            this.lblaltura.Size = new System.Drawing.Size(173, 27);
+            this.lblaltura.Size = new System.Drawing.Size(171, 23);
             this.lblaltura.TabIndex = 1;
             this.lblaltura.Text = "Qual a sua altura?";
             // 
@@ -70,34 +70,35 @@
             // 
             // txtpeso
             // 
-            this.txtpeso.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtpeso.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtpeso.Location = new System.Drawing.Point(261, 55);
             this.txtpeso.Name = "txtpeso";
-            this.txtpeso.Size = new System.Drawing.Size(142, 34);
+            this.txtpeso.Size = new System.Drawing.Size(142, 30);
             this.txtpeso.TabIndex = 3;
             // 
             // txtaltura
             // 
-            this.txtaltura.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtaltura.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtaltura.Location = new System.Drawing.Point(261, 103);
             this.txtaltura.Name = "txtaltura";
-            this.txtaltura.Size = new System.Drawing.Size(142, 34);
+            this.txtaltura.Size = new System.Drawing.Size(142, 30);
             this.txtaltura.TabIndex = 4;
             // 
             // txtresult
             // 
-            this.txtresult.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtresult.Location = new System.Drawing.Point(62, 198);
+            this.txtresult.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtresult.Location = new System.Drawing.Point(62, 289);
             this.txtresult.Name = "txtresult";
             this.txtresult.ReadOnly = true;
-            this.txtresult.Size = new System.Drawing.Size(608, 34);
+            this.txtresult.Size = new System.Drawing.Size(608, 30);
             this.txtresult.TabIndex = 5;
+            this.txtresult.TextChanged += new System.EventHandler(this.txtresult_TextChanged);
             // 
             // btncalcular
             // 
             this.btncalcular.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btncalcular.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncalcular.Location = new System.Drawing.Point(237, 325);
+            this.btncalcular.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncalcular.Location = new System.Drawing.Point(198, 190);
             this.btncalcular.Name = "btncalcular";
             this.btncalcular.Size = new System.Drawing.Size(110, 48);
             this.btncalcular.TabIndex = 6;
@@ -108,8 +109,8 @@
             // btnlimpar
             // 
             this.btnlimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnlimpar.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnlimpar.Location = new System.Drawing.Point(408, 325);
+            this.btnlimpar.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlimpar.Location = new System.Drawing.Point(358, 190);
             this.btnlimpar.Name = "btnlimpar";
             this.btnlimpar.Size = new System.Drawing.Size(100, 48);
             this.btnlimpar.TabIndex = 7;
@@ -119,9 +120,9 @@
             // 
             // btnvoltar
             // 
-            this.btnvoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnvoltar.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnvoltar.Location = new System.Drawing.Point(574, 325);
+            this.btnvoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnvoltar.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnvoltar.Location = new System.Drawing.Point(768, 489);
             this.btnvoltar.Name = "btnvoltar";
             this.btnvoltar.Size = new System.Drawing.Size(96, 48);
             this.btnvoltar.TabIndex = 8;
@@ -134,7 +135,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
-            this.ClientSize = new System.Drawing.Size(897, 515);
+            this.ClientSize = new System.Drawing.Size(897, 564);
             this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.btnlimpar);
             this.Controls.Add(this.btncalcular);

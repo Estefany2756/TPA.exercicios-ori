@@ -32,9 +32,10 @@
             this.tsmiprogramas = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmilivraria = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiacrescimo = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmisair = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmilanchonete = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiimc = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmisair = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmimedia = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +57,8 @@
             this.tsmilivraria,
             this.tsmiacrescimo,
             this.tsmilanchonete,
-            this.tsmiimc});
+            this.tsmiimc,
+            this.tsmimedia});
             this.tsmiprogramas.Name = "tsmiprogramas";
             this.tsmiprogramas.Size = new System.Drawing.Size(94, 24);
             this.tsmiprogramas.Text = "Programas";
@@ -75,13 +77,6 @@
             this.tsmiacrescimo.Text = "Acréscimo";
             this.tsmiacrescimo.Click += new System.EventHandler(this.tsmiacrescimo_Click);
             // 
-            // tsmisair
-            // 
-            this.tsmisair.Name = "tsmisair";
-            this.tsmisair.Size = new System.Drawing.Size(46, 24);
-            this.tsmisair.Text = "sair";
-            this.tsmisair.Click += new System.EventHandler(this.tsmisair_Click);
-            // 
             // tsmilanchonete
             // 
             this.tsmilanchonete.Name = "tsmilanchonete";
@@ -96,6 +91,20 @@
             this.tsmiimc.Text = "IMC";
             this.tsmiimc.Click += new System.EventHandler(this.tsmiimc_Click);
             // 
+            // tsmisair
+            // 
+            this.tsmisair.Name = "tsmisair";
+            this.tsmisair.Size = new System.Drawing.Size(46, 24);
+            this.tsmisair.Text = "sair";
+            this.tsmisair.Click += new System.EventHandler(this.tsmisair_Click);
+            // 
+            // tsmimedia
+            // 
+            this.tsmimedia.Name = "tsmimedia";
+            this.tsmimedia.Size = new System.Drawing.Size(224, 26);
+            this.tsmimedia.Text = "Média Escolar";
+            this.tsmimedia.Click += new System.EventHandler(this.tsmimedia_Click);
+            // 
             // frmmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -104,7 +113,7 @@
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmmenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
@@ -124,6 +133,7 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiacrescimo;
         private System.Windows.Forms.ToolStripMenuItem tsmilanchonete;
         private System.Windows.Forms.ToolStripMenuItem tsmiimc;
+        private System.Windows.Forms.ToolStripMenuItem tsmimedia;
     }
 }
 

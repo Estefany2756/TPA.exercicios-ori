@@ -85,5 +85,10 @@ namespace TPA.naielly.estefany
         {
 
         }
+
+        private void frmacrescimo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -49,5 +49,12 @@ namespace TPA.naielly.estefany
             frmimc imc = new frmimc();
             imc.Show();
         }
+
+        private void tsmimedia_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmmedia me = new frmmedia();
+            me.Show();
+        }
     }
 }

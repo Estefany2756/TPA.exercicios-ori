@@ -34,27 +34,27 @@ namespace TPA.naielly.estefany
                 classe = "Magreza Severa";
             }
 
-            else if (imc > 17 && imc < 18.5)
+            else if (imc >= 17 && imc < 18.5)
             {
                 classe = "Magreza leve";
             }
 
-            else if (imc > 18.5 && imc < 25)
+            else if (imc >= 18.5 && imc < 25)
             {
                 classe = "Peso Saudável";
             }
 
-            else if (imc > 25 && imc < 30)
+            else if (imc >= 25 && imc < 30)
             {
                 classe = "Sobrepeso";
             }
 
-            else if (imc > 20 && imc < 35)
+            else if (imc >= 30 && imc < 35)
             {
                 classe = "Obesidade tipo I";
             }
 
-            else if (imc > 35 && imc < 40)
+            else if (imc >= 35 && imc < 40)
             {
                 classe = "Obesidade tipo II";
             }
@@ -83,6 +83,11 @@ namespace TPA.naielly.estefany
             Hide();
             frmmenu menu = new frmmenu();
             menu.Show();
+        }
+
+        private void txtresult_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
