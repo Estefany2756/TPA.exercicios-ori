@@ -35,8 +35,8 @@
             this.tsmilanchonete = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiimc = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmimedia = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmisair = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmidesconto = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmisair = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,7 +48,7 @@
             this.tsmisair});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1067, 32);
+            this.menuStrip1.Size = new System.Drawing.Size(873, 32);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -69,58 +69,58 @@
             // tsmilivraria
             // 
             this.tsmilivraria.Name = "tsmilivraria";
-            this.tsmilivraria.Size = new System.Drawing.Size(224, 26);
+            this.tsmilivraria.Size = new System.Drawing.Size(197, 28);
             this.tsmilivraria.Text = "Livraria";
             this.tsmilivraria.Click += new System.EventHandler(this.tsmilivraria_Click);
             // 
             // tsmiacrescimo
             // 
             this.tsmiacrescimo.Name = "tsmiacrescimo";
-            this.tsmiacrescimo.Size = new System.Drawing.Size(224, 26);
+            this.tsmiacrescimo.Size = new System.Drawing.Size(197, 28);
             this.tsmiacrescimo.Text = "Acréscimo";
             this.tsmiacrescimo.Click += new System.EventHandler(this.tsmiacrescimo_Click);
             // 
             // tsmilanchonete
             // 
             this.tsmilanchonete.Name = "tsmilanchonete";
-            this.tsmilanchonete.Size = new System.Drawing.Size(224, 26);
+            this.tsmilanchonete.Size = new System.Drawing.Size(197, 28);
             this.tsmilanchonete.Text = "Lanchonete";
             this.tsmilanchonete.Click += new System.EventHandler(this.tsmilanchonete_Click);
             // 
             // tsmiimc
             // 
             this.tsmiimc.Name = "tsmiimc";
-            this.tsmiimc.Size = new System.Drawing.Size(224, 26);
+            this.tsmiimc.Size = new System.Drawing.Size(197, 28);
             this.tsmiimc.Text = "IMC";
             this.tsmiimc.Click += new System.EventHandler(this.tsmiimc_Click);
             // 
             // tsmimedia
             // 
             this.tsmimedia.Name = "tsmimedia";
-            this.tsmimedia.Size = new System.Drawing.Size(224, 26);
+            this.tsmimedia.Size = new System.Drawing.Size(197, 28);
             this.tsmimedia.Text = "Média Escolar";
             this.tsmimedia.Click += new System.EventHandler(this.tsmimedia_Click);
-            // 
-            // tsmisair
-            // 
-            this.tsmisair.Name = "tsmisair";
-            this.tsmisair.Size = new System.Drawing.Size(46, 24);
-            this.tsmisair.Text = "sair";
-            this.tsmisair.Click += new System.EventHandler(this.tsmisair_Click);
             // 
             // tsmidesconto
             // 
             this.tsmidesconto.Name = "tsmidesconto";
-            this.tsmidesconto.Size = new System.Drawing.Size(224, 26);
+            this.tsmidesconto.Size = new System.Drawing.Size(197, 28);
             this.tsmidesconto.Text = "Desconto";
             this.tsmidesconto.Click += new System.EventHandler(this.tsmidesconto_Click);
+            // 
+            // tsmisair
+            // 
+            this.tsmisair.Name = "tsmisair";
+            this.tsmisair.Size = new System.Drawing.Size(46, 28);
+            this.tsmisair.Text = "sair";
+            this.tsmisair.Click += new System.EventHandler(this.tsmisair_Click);
             // 
             // frmmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.ClientSize = new System.Drawing.Size(1067, 493);
+            this.ClientSize = new System.Drawing.Size(873, 493);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);

@@ -258,6 +258,7 @@
             this.Controls.Add(this.lbln1);
             this.Controls.Add(this.lblid);
             this.Name = "frmmedia";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Média e Conceito";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -146,6 +146,7 @@
             this.Controls.Add(this.lblcodigo);
             this.Controls.Add(this.lblpreco);
             this.Name = "frmdesconto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Valor de Desconto";
             this.Load += new System.EventHandler(this.frmdesconto_Load);
             this.ResumeLayout(false);
