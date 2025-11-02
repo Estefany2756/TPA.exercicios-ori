@@ -127,7 +127,7 @@
             this.txttotal.Location = new System.Drawing.Point(276, 334);
             this.txttotal.Name = "txttotal";
             this.txttotal.ReadOnly = true;
-            this.txttotal.Size = new System.Drawing.Size(333, 30);
+            this.txttotal.Size = new System.Drawing.Size(426, 30);
             this.txttotal.TabIndex = 8;
             // 
             // frmdesconto

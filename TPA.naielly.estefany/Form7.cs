@@ -24,7 +24,7 @@ namespace TPA.naielly.estefany
 
         private void btncalcular_Click(object sender, EventArgs e)
         {
-            double preco, total, desconto;
+            double preco, total, desconto = 0;
             Int32 cod;
 
            
@@ -55,9 +55,9 @@ namespace TPA.naielly.estefany
                     break;
 
                 default:
-                    desconto = 0;
+                    
                     txttotal.Text = "Produto importado, sem desconto disponível.";
-                    break;
+                    return;
 
             }
 
